@@ -1,8 +1,8 @@
 FROM golang:1.13.4
 MAINTAINER troyqk@gmail.com
 
-WORKDIR /go/src/around
-ADD . /go/src/around
+WORKDIR /go/src/Around-BE
+ADD . /go/src/Around-BE
 
 RUN go get cloud.google.com/go/storage
 RUN go get cloud.google.com/go/vision/apiv1 

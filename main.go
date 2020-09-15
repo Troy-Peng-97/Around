@@ -25,7 +25,7 @@ const (
 	DISTANCE   = "200km"
 
 	ES_URL      = "http://10.128.0.2:9200"
-	BUCKET_NAME = "troy-bucket"
+	BUCKET_NAME = "socialgenetics-bucket"
 
 	API_PREFIX = "/api/v1"
 )
